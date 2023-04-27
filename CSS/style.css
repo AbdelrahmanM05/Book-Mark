@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-smoke {
+    color: #aaa;
+}
+
+.form {
+    background-color: #eee;
+}
+
+.alertMess {
+    background-color: #ffb2b2;
+    color: #910004;
+    font-size: 1.15rem;
+    border: 1px solid #910004;
+}
+
+.text-lightGray {
+    color: #333;
+}
+
+.hidden {
+    background-image: linear-gradient(#eee, #fff);
+}
+
+.btn-primary {
+    border: transparent;
+}
+
+.btn-danger {
+    background-color: #910004;
+    border: transparent;
+}
+
+.btn-danger:hover {
+    background-color: #510d0e;
+    box-shadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+    background-color: #0a3f77;
+    box-shadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.2);
+}

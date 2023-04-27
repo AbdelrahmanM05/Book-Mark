@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Book Mark</title>
+</head>
+
+<body>
+    <!-- SECTION header -->
+    <header class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="border-bottom border-1 border-secondary py-5 mx-auto">
+                    <h2 class="fw-bolder ms-3 text-smoke">Bookmarker</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- SECTION header -->
+    <!-- SECTION Form -->
+    <div class="container">
+        <div class="row px-4">
+            <div class="form mx-auto text-center py-5 px-2">
+                <h3 class="mb-5 fs-4 fw-bolder">Bookmark your favorite sites</h3>
+                <h6 class="mb-3 fw-bolder text-lightGray">Site Name</h6>
+                <input id="bookMark" class="form-control form-control-sm mb-3 w-75 mx-auto" type="text"
+                    placeholder="BookMark Name" aria-label=".form-control-sm example">
+                <p class="d-none alertMess w-75 mx-auto fw-bold border-darkRed rounded-3" id="nameAlert"></p>
+                <h6 class="mb-3 fw-bolder text-lightGray">Site URL</h6>
+                <input id="webSite" class="form-control form-control-sm mb-3 w-75 mx-auto" type="text"
+                    placeholder="Website URL" aria-label=".form-control-sm example">
+                <p class="d-none alertMess w-75 mx-auto fw-bold border-darkRed rounded-3" id="urlAlert"></p>
+                <button class="submitBtn btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+    <!-- SECTION Form -->
+    <!-- SECTION  -->
+    <section class="py-4" id="books">
+        <div class="container">
+            <div class="row px-4" id="singleBook">
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- SECTION  -->
+    <!-- SECTION Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <p class="py-5 border-top border-1 border-secondary text-smoke fw-bolder">© 2019 Bookmarker Inc.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- SECTION Footer -->
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
